@@ -51,8 +51,8 @@ $Comp
 L Connector:Samtec_ASP-134486-01 J5
 U 4 1 5CA1047A
 P 10290 3145
-F 0 "J5" H 10085 5370 50  0000 L CNN
-F 1 "Samtec_ASP-134486-01" H 9775 5250 50  0000 L CNN
+F 0 "J5" H 10120 5370 50  0000 L CNN
+F 1 "Samtec_ASP-134486-01" H 10110 5250 50  0000 L CNN
 F 2 "Connector_Samtec:Samtec_FMC_ASP-134486-01_10x40_P1.27mm_Vertical" H 10340 5295 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf" H 10440 5245 50  0001 C CNN
 	4    10290 3145
@@ -74,7 +74,7 @@ L Connector:Samtec_ASP-134486-01 J5
 U 6 1 5CA10602
 P 4110 7675
 F 0 "J5" H 3930 9855 50  0000 L CNN
-F 1 "Samtec_ASP-134486-01" H 3615 9735 50  0000 L CNN
+F 1 "Samtec_ASP-134486-01" H 3925 9740 50  0000 L CNN
 F 2 "Connector_Samtec:Samtec_FMC_ASP-134486-01_10x40_P1.27mm_Vertical" H 4160 9825 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf" H 4260 9775 50  0001 C CNN
 	6    4110 7675
@@ -95,8 +95,8 @@ $Comp
 L Connector:Samtec_ASP-134486-01 J5
 U 8 1 5CA10759
 P 8830 7635
-F 0 "J5" H 8635 9785 50  0000 L CNN
-F 1 "Samtec_ASP-134486-01" H 8320 9675 50  0000 L CNN
+F 0 "J5" H 8670 9760 50  0000 L CNN
+F 1 "Samtec_ASP-134486-01" H 8665 9670 50  0000 L CNN
 F 2 "Connector_Samtec:Samtec_FMC_ASP-134486-01_10x40_P1.27mm_Vertical" H 8880 9785 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf" H 8980 9735 50  0001 C CNN
 	8    8830 7635
@@ -118,10 +118,1666 @@ L Connector:Samtec_ASP-134486-01 J5
 U 10 1 5CA108A7
 P 14395 7605
 F 0 "J5" H 14210 9825 50  0000 L CNN
-F 1 "Samtec_ASP-134486-01" H 13885 9685 50  0000 L CNN
+F 1 "Samtec_ASP-134486-01" H 14205 9685 50  0000 L CNN
 F 2 "Connector_Samtec:Samtec_FMC_ASP-134486-01_10x40_P1.27mm_Vertical" H 14445 9755 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf" H 14545 9705 50  0001 C CNN
 	10   14395 7605
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2785 1280
+NoConn ~ 2785 1380
+NoConn ~ 2785 1680
+NoConn ~ 2785 1780
+NoConn ~ 2785 2080
+NoConn ~ 2785 2180
+NoConn ~ 2785 2480
+NoConn ~ 2785 2580
+NoConn ~ 2785 2880
+NoConn ~ 2785 2980
+NoConn ~ 2785 3280
+NoConn ~ 2785 3380
+NoConn ~ 2785 3680
+NoConn ~ 2785 3780
+NoConn ~ 2785 4080
+NoConn ~ 2785 4180
+NoConn ~ 2785 4480
+NoConn ~ 2785 4580
+NoConn ~ 2785 4880
+NoConn ~ 2785 4980
+$Comp
+L power:Earth #PWR?
+U 1 1 5CA237A7
+P 2570 5080
+F 0 "#PWR?" H 2570 4830 50  0001 C CNN
+F 1 "Earth" H 2570 4930 50  0001 C CNN
+F 2 "" H 2570 5080 50  0001 C CNN
+F 3 "~" H 2570 5080 50  0001 C CNN
+	1    2570 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2785 5080 2570 5080
+Wire Wire Line
+	2570 5080 2570 4780
+Wire Wire Line
+	2570 4780 2785 4780
+Connection ~ 2570 5080
+Wire Wire Line
+	2785 4680 2570 4680
+Wire Wire Line
+	2570 4680 2570 4780
+Connection ~ 2570 4780
+Wire Wire Line
+	2570 4680 2570 4380
+Wire Wire Line
+	2570 4380 2785 4380
+Connection ~ 2570 4680
+Wire Wire Line
+	2785 4280 2570 4280
+Wire Wire Line
+	2570 4280 2570 4380
+Connection ~ 2570 4380
+Wire Wire Line
+	2570 4280 2570 3980
+Wire Wire Line
+	2570 3980 2785 3980
+Connection ~ 2570 4280
+Wire Wire Line
+	2785 3880 2570 3880
+Wire Wire Line
+	2570 3880 2570 3980
+Connection ~ 2570 3980
+Wire Wire Line
+	2570 3880 2570 3580
+Wire Wire Line
+	2570 3580 2785 3580
+Connection ~ 2570 3880
+Wire Wire Line
+	2785 3480 2570 3480
+Wire Wire Line
+	2570 3480 2570 3580
+Connection ~ 2570 3580
+Wire Wire Line
+	2785 3180 2570 3180
+Wire Wire Line
+	2570 3180 2570 3480
+Connection ~ 2570 3480
+Wire Wire Line
+	2785 3080 2570 3080
+Wire Wire Line
+	2570 3080 2570 3180
+Connection ~ 2570 3180
+Wire Wire Line
+	2785 2780 2570 2780
+Wire Wire Line
+	2570 2780 2570 3080
+Connection ~ 2570 3080
+Wire Wire Line
+	2785 2680 2570 2680
+Wire Wire Line
+	2570 2680 2570 2780
+Connection ~ 2570 2780
+Wire Wire Line
+	2785 2380 2570 2380
+Wire Wire Line
+	2570 2380 2570 2680
+Connection ~ 2570 2680
+Wire Wire Line
+	2785 2280 2570 2280
+Wire Wire Line
+	2570 2280 2570 2380
+Connection ~ 2570 2380
+Wire Wire Line
+	2785 1980 2570 1980
+Wire Wire Line
+	2570 1980 2570 2280
+Connection ~ 2570 2280
+Wire Wire Line
+	2785 1880 2570 1880
+Wire Wire Line
+	2570 1880 2570 1980
+Connection ~ 2570 1980
+Wire Wire Line
+	2785 1580 2570 1580
+Wire Wire Line
+	2570 1580 2570 1880
+Connection ~ 2570 1880
+Wire Wire Line
+	2785 1480 2570 1480
+Wire Wire Line
+	2570 1480 2570 1580
+Connection ~ 2570 1580
+Wire Wire Line
+	2785 1180 2570 1180
+Wire Wire Line
+	2570 1180 2570 1480
+Connection ~ 2570 1480
+NoConn ~ 5220 1150
+NoConn ~ 5220 1450
+NoConn ~ 5220 1550
+NoConn ~ 5220 1850
+NoConn ~ 5220 1950
+NoConn ~ 5220 2250
+NoConn ~ 5220 2350
+NoConn ~ 5220 2650
+NoConn ~ 5220 2750
+NoConn ~ 5220 3050
+NoConn ~ 5220 3150
+NoConn ~ 5220 3450
+NoConn ~ 5220 3550
+NoConn ~ 5220 3850
+NoConn ~ 5220 3950
+NoConn ~ 5220 4250
+NoConn ~ 5220 4350
+NoConn ~ 5220 4650
+NoConn ~ 5220 4750
+NoConn ~ 5220 5050
+$Comp
+L power:Earth #PWR?
+U 1 1 5CA32565
+P 5005 5050
+F 0 "#PWR?" H 5005 4800 50  0001 C CNN
+F 1 "Earth" H 5005 4900 50  0001 C CNN
+F 2 "" H 5005 5050 50  0001 C CNN
+F 3 "~" H 5005 5050 50  0001 C CNN
+	1    5005 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5220 4950 5005 4950
+Wire Wire Line
+	5005 5050 5005 4950
+Connection ~ 5005 4950
+Wire Wire Line
+	5005 4950 5005 4850
+Wire Wire Line
+	5220 4850 5005 4850
+Connection ~ 5005 4850
+Wire Wire Line
+	5005 4550 5220 4550
+Wire Wire Line
+	5005 4550 5005 4850
+Wire Wire Line
+	5220 4450 5005 4450
+Wire Wire Line
+	5005 4450 5005 4550
+Connection ~ 5005 4550
+Wire Wire Line
+	5005 4450 5005 4150
+Wire Wire Line
+	5005 4150 5220 4150
+Connection ~ 5005 4450
+Wire Wire Line
+	5220 4050 5005 4050
+Wire Wire Line
+	5005 4050 5005 4150
+Connection ~ 5005 4150
+Wire Wire Line
+	5220 3750 5005 3750
+Wire Wire Line
+	5005 3750 5005 4050
+Connection ~ 5005 4050
+Wire Wire Line
+	5220 3650 5005 3650
+Wire Wire Line
+	5005 3650 5005 3750
+Connection ~ 5005 3750
+Wire Wire Line
+	5220 3350 5005 3350
+Wire Wire Line
+	5005 3350 5005 3650
+Connection ~ 5005 3650
+Wire Wire Line
+	5220 3250 5005 3250
+Wire Wire Line
+	5005 3250 5005 3350
+Connection ~ 5005 3350
+Wire Wire Line
+	5220 2950 5005 2950
+Wire Wire Line
+	5005 2950 5005 3250
+Connection ~ 5005 3250
+Wire Wire Line
+	5220 2850 5005 2850
+Wire Wire Line
+	5005 2850 5005 2950
+Connection ~ 5005 2950
+Wire Wire Line
+	5220 2550 5005 2550
+Wire Wire Line
+	5005 2550 5005 2850
+Connection ~ 5005 2850
+Wire Wire Line
+	5220 2450 5005 2450
+Wire Wire Line
+	5005 2450 5005 2550
+Connection ~ 5005 2550
+Wire Wire Line
+	5220 2150 5005 2150
+Wire Wire Line
+	5005 2150 5005 2450
+Connection ~ 5005 2450
+Wire Wire Line
+	5220 2050 5005 2050
+Wire Wire Line
+	5005 2050 5005 2150
+Connection ~ 5005 2150
+Wire Wire Line
+	5220 1750 5005 1750
+Wire Wire Line
+	5005 1750 5005 2050
+Connection ~ 5005 2050
+Wire Wire Line
+	5220 1650 5005 1650
+Wire Wire Line
+	5005 1650 5005 1750
+Connection ~ 5005 1750
+Wire Wire Line
+	5220 1350 5005 1350
+Wire Wire Line
+	5005 1350 5005 1650
+Connection ~ 5005 1650
+Wire Wire Line
+	5220 1250 5005 1250
+Wire Wire Line
+	5005 1250 5005 1350
+Connection ~ 5005 1350
+Text GLabel 7400 2085 0    50   Input ~ 0
+CHIPLINK_TX_DAT12
+Wire Wire Line
+	7400 2085 7490 2085
+Text GLabel 7400 2185 0    50   Input ~ 0
+CHIPLINK_TX_DAT13
+Wire Wire Line
+	7400 2185 7490 2185
+Text GLabel 7400 2485 0    50   Input ~ 0
+CHIPLINK_TX_DAT20
+Text GLabel 7400 2585 0    50   Input ~ 0
+CHIPLINK_TX_DAT21
+Wire Wire Line
+	7400 2485 7490 2485
+Wire Wire Line
+	7400 2585 7490 2585
+Wire Wire Line
+	7400 2885 7490 2885
+Wire Wire Line
+	7400 2985 7490 2985
+Text GLabel 7400 2885 0    50   Input ~ 0
+CHIPLINK_TX_DAT28
+Text GLabel 7400 2985 0    50   Input ~ 0
+CHIPLINK_TX_DAT29
+Wire Wire Line
+	7365 3285 7490 3285
+Wire Wire Line
+	7365 3385 7490 3385
+Text GLabel 7365 3285 0    50   Input ~ 0
+CHIPLINK_RX_DAT2
+Text GLabel 7365 3385 0    50   Input ~ 0
+CHIPLINK_RX_DAT3
+Text GLabel 7410 3685 0    50   Input ~ 0
+CHIPLINK_RX_DAT20
+Text GLabel 7410 3785 0    50   Input ~ 0
+CHIPLINK_RX_DAT21
+Wire Wire Line
+	7410 3685 7490 3685
+Wire Wire Line
+	7410 3785 7490 3785
+Text GLabel 7000 4085 0    50   Input ~ 0
+HPC_SCL
+Text GLabel 7000 4185 0    50   Input ~ 0
+HPC_SDA
+Wire Wire Line
+	7000 4085 7490 4085
+Wire Wire Line
+	7000 4185 7490 4185
+$Comp
+L Device:R R201
+U 1 1 5CA684E4
+P 7290 4485
+F 0 "R201" V 7250 4290 50  0000 C CNN
+F 1 "0R" V 7335 4330 50  0000 C CNN
+F 2 "" V 7220 4485 50  0001 C CNN
+F 3 "~" H 7290 4485 50  0001 C CNN
+	1    7290 4485
+	0    1    1    0   
+$EndComp
+Text GLabel 7005 4485 0    50   Input ~ 0
+HPC_GA0
+Wire Wire Line
+	7440 4485 7490 4485
+Wire Wire Line
+	7140 4485 7005 4485
+Text Label 6640 4785 0    50   ~ 0
+12P0V_FMC
+Wire Wire Line
+	7400 4585 7400 4785
+Text Label 6640 4985 0    50   ~ 0
+3P3V
+Wire Wire Line
+	6640 4985 7490 4985
+Wire Wire Line
+	7490 1185 6325 1185
+Wire Wire Line
+	6325 1185 6325 1485
+Wire Wire Line
+	7490 5085 6325 5085
+$Comp
+L power:Earth #PWR?
+U 1 1 5CA8D071
+P 6325 5085
+F 0 "#PWR?" H 6325 4835 50  0001 C CNN
+F 1 "Earth" H 6325 4935 50  0001 C CNN
+F 2 "" H 6325 5085 50  0001 C CNN
+F 3 "~" H 6325 5085 50  0001 C CNN
+	1    6325 5085
+	1    0    0    -1  
+$EndComp
+Connection ~ 6325 5085
+NoConn ~ 7490 1285
+NoConn ~ 7490 1385
+NoConn ~ 7490 1685
+NoConn ~ 7490 1785
+Wire Wire Line
+	7490 1485 6325 1485
+Connection ~ 6325 1485
+Wire Wire Line
+	6325 1485 6325 1585
+Wire Wire Line
+	7490 1585 6325 1585
+Connection ~ 6325 1585
+Wire Wire Line
+	6325 1585 6325 1885
+Wire Wire Line
+	7490 1985 6325 1985
+Connection ~ 6325 1985
+Wire Wire Line
+	6325 1985 6325 2285
+Wire Wire Line
+	7490 1885 6325 1885
+Connection ~ 6325 1885
+Wire Wire Line
+	6325 1885 6325 1985
+Wire Wire Line
+	7490 2385 6325 2385
+Connection ~ 6325 2385
+Wire Wire Line
+	6325 2385 6325 3085
+Wire Wire Line
+	7490 2285 6325 2285
+Connection ~ 6325 2285
+Wire Wire Line
+	6325 2285 6325 2385
+Wire Wire Line
+	7490 3085 6325 3085
+Connection ~ 6325 3085
+Wire Wire Line
+	6325 3085 6325 3185
+Wire Wire Line
+	7490 3185 6325 3185
+Connection ~ 6325 3185
+Wire Wire Line
+	6325 3185 6325 3485
+Wire Wire Line
+	7490 3485 6325 3485
+Connection ~ 6325 3485
+Wire Wire Line
+	6325 3485 6325 3585
+Wire Wire Line
+	7490 3585 6325 3585
+Connection ~ 6325 3585
+Wire Wire Line
+	6325 3585 6325 3885
+Wire Wire Line
+	7490 3885 6325 3885
+Connection ~ 6325 3885
+Wire Wire Line
+	6325 3885 6325 3985
+Wire Wire Line
+	7490 3985 6325 3985
+Connection ~ 6325 3985
+Wire Wire Line
+	6325 3985 6325 4285
+Wire Wire Line
+	7490 4385 7400 4385
+Wire Wire Line
+	7490 4685 6325 4685
+Connection ~ 6325 4685
+Wire Wire Line
+	6325 4685 6325 4885
+Wire Wire Line
+	7490 4885 6325 4885
+Connection ~ 6325 4885
+Wire Wire Line
+	6325 4885 6325 5085
+Wire Wire Line
+	6640 4785 7400 4785
+Connection ~ 7400 4785
+Wire Wire Line
+	7400 4785 7490 4785
+Wire Wire Line
+	7400 4585 7490 4585
+Wire Wire Line
+	7490 4285 7400 4285
+Connection ~ 6325 4285
+Wire Wire Line
+	7400 4385 7400 4285
+Connection ~ 7400 4285
+Wire Wire Line
+	7400 4285 6325 4285
+Wire Wire Line
+	6325 4285 6325 4685
+Text GLabel 9955 1945 0    50   Input ~ 0
+CHIPLINK_TX_DAT2
+Wire Wire Line
+	9955 1945 10090 1945
+Text GLabel 9955 2045 0    50   Input ~ 0
+CHIPLINK_TX_DAT3
+Wire Wire Line
+	9955 2045 10090 2045
+Text GLabel 10000 2245 0    50   Input ~ 0
+CHIPLINK_TX_DAT11
+Wire Wire Line
+	10000 2245 10090 2245
+Text GLabel 10000 2345 0    50   Input ~ 0
+CHIPLINK_TX_DAT12
+Wire Wire Line
+	10000 2345 10090 2345
+Text GLabel 10000 2545 0    50   Input ~ 0
+CHIPLINK_TX_DAT18
+Wire Wire Line
+	10000 2545 10090 2545
+Text GLabel 10000 2645 0    50   Input ~ 0
+CHIPLINK_TX_DAT19
+Wire Wire Line
+	10000 2645 10090 2645
+Text GLabel 10000 2845 0    50   Input ~ 0
+CHIPLINK_TX_DAT26
+Wire Wire Line
+	10000 2845 10090 2845
+Text GLabel 10000 2945 0    50   Input ~ 0
+CHIPLINK_TX_DAT27
+Wire Wire Line
+	10000 2945 10090 2945
+Text GLabel 9965 3145 0    50   Input ~ 0
+CHIPLINK_RX_DAT0
+Wire Wire Line
+	9965 3145 10090 3145
+Text GLabel 9965 3245 0    50   Input ~ 0
+CHIPLINK_RX_DAT1
+Wire Wire Line
+	9965 3245 10090 3245
+Text GLabel 10015 3445 0    50   Input ~ 0
+CHIPLINK_RX_DAT12
+Wire Wire Line
+	10015 3445 10090 3445
+Text GLabel 10015 3545 0    50   Input ~ 0
+CHIPLINK_RX_DAT13
+Wire Wire Line
+	10015 3545 10090 3545
+Text GLabel 10015 3745 0    50   Input ~ 0
+CHIPLINK_RX_DAT18
+Wire Wire Line
+	10015 3745 10090 3745
+Text GLabel 10015 3845 0    50   Input ~ 0
+CHIPLINK_RX_DAT19
+Wire Wire Line
+	10015 3845 10090 3845
+Text Label 9225 4045 0    50   ~ 0
+HPC_TCK
+Wire Wire Line
+	10090 4045 9225 4045
+Wire Wire Line
+	10090 4145 9225 4145
+Wire Wire Line
+	10090 4245 9225 4245
+Text Label 9225 4145 0    50   ~ 0
+HPC_TDI
+Text Label 9225 4245 0    50   ~ 0
+HPC_TDO
+Wire Wire Line
+	10090 4445 9225 4445
+Wire Wire Line
+	10090 4545 9225 4545
+Text Label 9225 4445 0    50   ~ 0
+HPC_TMS
+Text Label 9225 4545 0    50   ~ 0
+HPC_TRST_L
+$Comp
+L Device:R R202
+U 1 1 5CB73FAD
+P 9885 4645
+F 0 "R202" V 9845 4450 50  0000 C CNN
+F 1 "0R" V 9925 4490 50  0000 C CNN
+F 2 "" V 9815 4645 50  0001 C CNN
+F 3 "~" H 9885 4645 50  0001 C CNN
+	1    9885 4645
+	0    1    1    0   
+$EndComp
+Text GLabel 9605 4645 0    50   Input ~ 0
+HPC_GA0
+Wire Wire Line
+	10035 4645 10090 4645
+Wire Wire Line
+	9735 4645 9605 4645
+Text Label 9240 5145 0    50   ~ 0
+3P3V
+Wire Wire Line
+	9240 5145 10060 5145
+Wire Wire Line
+	10090 4345 10060 4345
+Wire Wire Line
+	10060 4345 10060 4745
+Connection ~ 10060 5145
+Wire Wire Line
+	10060 5145 10090 5145
+Wire Wire Line
+	10090 4745 10060 4745
+Connection ~ 10060 4745
+Wire Wire Line
+	10060 4745 10060 4945
+Wire Wire Line
+	10090 4945 10060 4945
+Connection ~ 10060 4945
+Wire Wire Line
+	10060 4945 10060 5145
+Wire Wire Line
+	10090 5045 8955 5045
+Wire Wire Line
+	8955 5045 8955 5145
+$Comp
+L power:Earth #PWR?
+U 1 1 5CBA8F15
+P 8955 5145
+F 0 "#PWR?" H 8955 4895 50  0001 C CNN
+F 1 "Earth" H 8955 4995 50  0001 C CNN
+F 2 "" H 8955 5145 50  0001 C CNN
+F 3 "~" H 8955 5145 50  0001 C CNN
+	1    8955 5145
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10090 4845 8955 4845
+Wire Wire Line
+	8955 4845 8955 5045
+Connection ~ 8955 5045
+NoConn ~ 10090 1545
+NoConn ~ 10090 1645
+Wire Wire Line
+	10090 1345 8955 1345
+Wire Wire Line
+	8955 1345 8955 1445
+Connection ~ 8955 4845
+Wire Wire Line
+	10090 1445 8955 1445
+Connection ~ 8955 1445
+Wire Wire Line
+	8955 1445 8955 1745
+Wire Wire Line
+	10090 1745 8955 1745
+Connection ~ 8955 1745
+Wire Wire Line
+	8955 1745 8955 1845
+Wire Wire Line
+	10090 1845 8955 1845
+Connection ~ 8955 1845
+Wire Wire Line
+	8955 1845 8955 2145
+Wire Wire Line
+	10090 2145 8955 2145
+Connection ~ 8955 2145
+Wire Wire Line
+	8955 2145 8955 2445
+Wire Wire Line
+	10090 2445 8955 2445
+Connection ~ 8955 2445
+Wire Wire Line
+	8955 2445 8955 2745
+Wire Wire Line
+	10090 2745 8955 2745
+Connection ~ 8955 2745
+Wire Wire Line
+	8955 2745 8955 3045
+Wire Wire Line
+	10090 3045 8955 3045
+Connection ~ 8955 3045
+Wire Wire Line
+	8955 3045 8955 3345
+Wire Wire Line
+	10090 3345 8955 3345
+Connection ~ 8955 3345
+Wire Wire Line
+	8955 3345 8955 3645
+Wire Wire Line
+	10090 3645 8955 3645
+Connection ~ 8955 3645
+Wire Wire Line
+	8955 3645 8955 3945
+Wire Wire Line
+	10090 3945 8955 3945
+Connection ~ 8955 3945
+Wire Wire Line
+	8955 3945 8955 4845
+Text GLabel 9750 1245 0    50   Input ~ 0
+HPC_PG_C2M
+Wire Wire Line
+	9750 1245 9850 1245
+$Comp
+L Device:R R203
+U 1 1 5CC2FF6B
+P 9850 1060
+F 0 "R203" H 9735 920 50  0000 C CNN
+F 1 "10K" H 9760 1205 50  0000 C CNN
+F 2 "" V 9780 1060 50  0001 C CNN
+F 3 "~" H 9850 1060 50  0001 C CNN
+	1    9850 1060
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 1210 9850 1245
+Connection ~ 9850 1245
+Wire Wire Line
+	9850 1245 10090 1245
+Wire Wire Line
+	9850 910  9215 910 
+Text Label 9215 910  0    50   ~ 0
+3P3V
+NoConn ~ 13080 2645
+NoConn ~ 13080 2745
+NoConn ~ 13080 2945
+NoConn ~ 13080 3045
+NoConn ~ 13080 3245
+NoConn ~ 13080 3345
+NoConn ~ 13080 3545
+NoConn ~ 13080 3645
+NoConn ~ 13080 3845
+NoConn ~ 13080 3945
+NoConn ~ 13080 4145
+NoConn ~ 13080 4245
+NoConn ~ 13080 4445
+NoConn ~ 13080 4545
+NoConn ~ 13080 4745
+NoConn ~ 13080 4845
+Text GLabel 12990 1345 0    50   Input ~ 0
+FMC_HA01_P_CC
+Wire Wire Line
+	12990 1345 13080 1345
+Text GLabel 12990 1445 0    50   Input ~ 0
+FMC_HA01_N_CC
+Wire Wire Line
+	12990 1445 13080 1445
+Text GLabel 12850 1745 0    50   Input ~ 0
+FMC_HA05_P
+Wire Wire Line
+	12850 1745 13080 1745
+Text GLabel 12850 1845 0    50   Input ~ 0
+FMC_HA05_N
+Wire Wire Line
+	12850 1845 13080 1845
+Text GLabel 12850 2045 0    50   Input ~ 0
+FMC_HA09_P
+Wire Wire Line
+	12850 2045 13080 2045
+Text GLabel 12850 2145 0    50   Input ~ 0
+FMC_HA09_N
+Wire Wire Line
+	12850 2145 13080 2145
+Text GLabel 12850 2345 0    50   Input ~ 0
+FMC_HA13_P
+Wire Wire Line
+	12850 2345 13080 2345
+Text GLabel 12850 2445 0    50   Input ~ 0
+FMC_HA13_N
+Wire Wire Line
+	12850 2445 13080 2445
+Wire Wire Line
+	13080 5045 12215 5045
+Text Label 12215 5045 0    50   ~ 0
+VCCIO_HPC_VADJ
+Wire Wire Line
+	13080 5145 11915 5145
+$Comp
+L power:Earth #PWR?
+U 1 1 5CD51902
+P 11915 5145
+F 0 "#PWR?" H 11915 4895 50  0001 C CNN
+F 1 "Earth" H 11915 4995 50  0001 C CNN
+F 2 "" H 11915 5145 50  0001 C CNN
+F 3 "~" H 11915 5145 50  0001 C CNN
+	1    11915 5145
+	1    0    0    -1  
+$EndComp
+Connection ~ 11915 5145
+Wire Wire Line
+	13080 1245 11915 1245
+Wire Wire Line
+	11915 1245 11915 1545
+Wire Wire Line
+	13080 4945 11915 4945
+Connection ~ 11915 4945
+Wire Wire Line
+	11915 4945 11915 5145
+Wire Wire Line
+	13080 4645 11915 4645
+Connection ~ 11915 4645
+Wire Wire Line
+	11915 4645 11915 4945
+Wire Wire Line
+	13080 4345 11915 4345
+Connection ~ 11915 4345
+Wire Wire Line
+	11915 4345 11915 4645
+Wire Wire Line
+	13080 4045 11915 4045
+Connection ~ 11915 4045
+Wire Wire Line
+	11915 4045 11915 4345
+Wire Wire Line
+	13080 3745 11915 3745
+Connection ~ 11915 3745
+Wire Wire Line
+	11915 3745 11915 4045
+Wire Wire Line
+	13080 3445 11915 3445
+Connection ~ 11915 3445
+Wire Wire Line
+	11915 3445 11915 3745
+Wire Wire Line
+	13080 3145 11915 3145
+Connection ~ 11915 3145
+Wire Wire Line
+	11915 3145 11915 3445
+Wire Wire Line
+	13080 2845 11915 2845
+Connection ~ 11915 2845
+Wire Wire Line
+	11915 2845 11915 3145
+Wire Wire Line
+	13080 2545 11915 2545
+Connection ~ 11915 2545
+Wire Wire Line
+	11915 2545 11915 2845
+Wire Wire Line
+	13080 2245 11915 2245
+Connection ~ 11915 2245
+Wire Wire Line
+	11915 2245 11915 2545
+Wire Wire Line
+	13080 1945 11915 1945
+Connection ~ 11915 1945
+Wire Wire Line
+	11915 1945 11915 2245
+Wire Wire Line
+	13080 1645 11915 1645
+Connection ~ 11915 1645
+Wire Wire Line
+	11915 1645 11915 1945
+Wire Wire Line
+	13080 1545 11915 1545
+Connection ~ 11915 1545
+Wire Wire Line
+	11915 1545 11915 1645
+Text GLabel 3570 5775 0    50   Input ~ 0
+HPC_PG_M2C
+Wire Wire Line
+	3570 5775 3670 5775
+$Comp
+L Device:R R204
+U 1 1 5CDF07AB
+P 3670 5590
+F 0 "R204" H 3555 5450 50  0000 C CNN
+F 1 "10K" H 3580 5735 50  0000 C CNN
+F 2 "" V 3600 5590 50  0001 C CNN
+F 3 "~" H 3670 5590 50  0001 C CNN
+	1    3670 5590
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3670 5740 3670 5775
+Connection ~ 3670 5775
+Wire Wire Line
+	3670 5775 3910 5775
+Wire Wire Line
+	3670 5440 3035 5440
+Text Label 3035 5440 0    50   ~ 0
+3P3V
+Text GLabel 3690 6075 0    50   Input ~ 0
+FMC_HA00_P_CC
+Text GLabel 3690 6175 0    50   Input ~ 0
+FMC_HA00_N_CC
+Wire Wire Line
+	3690 6075 3910 6075
+Wire Wire Line
+	3690 6175 3910 6175
+Text GLabel 3550 6375 0    50   Input ~ 0
+FMC_HA04_P
+Text GLabel 3550 6475 0    50   Input ~ 0
+FMC_HA04_N
+Wire Wire Line
+	3550 6375 3910 6375
+Wire Wire Line
+	3550 6475 3910 6475
+Text GLabel 3550 6675 0    50   Input ~ 0
+FMC_HA08_P
+Text GLabel 3550 6775 0    50   Input ~ 0
+FMC_HA08_N
+Wire Wire Line
+	3550 6675 3910 6675
+Wire Wire Line
+	3550 6775 3910 6775
+NoConn ~ 3910 6975
+NoConn ~ 3910 7075
+NoConn ~ 3910 7275
+NoConn ~ 3910 7375
+NoConn ~ 3910 7575
+NoConn ~ 3910 7675
+NoConn ~ 3910 7875
+NoConn ~ 3910 7975
+NoConn ~ 3910 8175
+NoConn ~ 3910 8275
+NoConn ~ 3910 8475
+NoConn ~ 3910 8575
+NoConn ~ 3910 8775
+NoConn ~ 3910 8875
+NoConn ~ 3910 9075
+NoConn ~ 3910 9175
+NoConn ~ 3910 9375
+NoConn ~ 3910 9475
+Wire Wire Line
+	3910 9675 3045 9675
+Text Label 3045 9675 0    50   ~ 0
+VCCIO_HPC_VADJ
+$Comp
+L power:Earth #PWR?
+U 1 1 5CFB1CEC
+P 2765 9675
+F 0 "#PWR?" H 2765 9425 50  0001 C CNN
+F 1 "Earth" H 2765 9525 50  0001 C CNN
+F 2 "" H 2765 9675 50  0001 C CNN
+F 3 "~" H 2765 9675 50  0001 C CNN
+	1    2765 9675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2765 9675 2765 9575
+Wire Wire Line
+	2765 9575 3910 9575
+Wire Wire Line
+	2765 9575 2765 9275
+Wire Wire Line
+	2765 9275 3910 9275
+Connection ~ 2765 9575
+Wire Wire Line
+	2765 9275 2765 8975
+Wire Wire Line
+	2765 8975 3910 8975
+Connection ~ 2765 9275
+Wire Wire Line
+	2765 8975 2765 8675
+Wire Wire Line
+	2765 8675 3910 8675
+Connection ~ 2765 8975
+Wire Wire Line
+	2765 8675 2765 8375
+Wire Wire Line
+	2765 8375 3910 8375
+Connection ~ 2765 8675
+Wire Wire Line
+	2765 8375 2765 8075
+Wire Wire Line
+	2765 8075 3910 8075
+Connection ~ 2765 8375
+Wire Wire Line
+	2765 8075 2765 7775
+Wire Wire Line
+	2765 7775 3910 7775
+Connection ~ 2765 8075
+Wire Wire Line
+	2765 7775 2765 7475
+Wire Wire Line
+	2765 7475 3910 7475
+Connection ~ 2765 7775
+Wire Wire Line
+	2765 7475 2765 7175
+Wire Wire Line
+	2765 7175 3910 7175
+Connection ~ 2765 7475
+Wire Wire Line
+	2765 7175 2765 6875
+Wire Wire Line
+	2765 6875 3910 6875
+Connection ~ 2765 7175
+Wire Wire Line
+	2765 6875 2765 6575
+Wire Wire Line
+	2765 6575 3910 6575
+Connection ~ 2765 6875
+Wire Wire Line
+	2765 6575 2765 6275
+Wire Wire Line
+	2765 6275 3910 6275
+Connection ~ 2765 6575
+Wire Wire Line
+	2765 6275 2765 5975
+Wire Wire Line
+	2765 5975 3910 5975
+Connection ~ 2765 6275
+Wire Wire Line
+	3910 5875 2765 5875
+Wire Wire Line
+	2765 5875 2765 5975
+Connection ~ 2765 5975
+Text GLabel 6175 6315 0    50   Input ~ 0
+CHIPLINK_TX_DAT0
+Wire Wire Line
+	6175 6315 6310 6315
+Text GLabel 6175 6415 0    50   Input ~ 0
+CHIPLINK_TX_DAT1
+Wire Wire Line
+	6175 6415 6310 6415
+Text GLabel 6175 6615 0    50   Input ~ 0
+CHIPLINK_TX_DAT6
+Wire Wire Line
+	6175 6615 6310 6615
+Text GLabel 6175 6715 0    50   Input ~ 0
+CHIPLINK_TX_DAT7
+Wire Wire Line
+	6175 6715 6310 6715
+Text GLabel 6220 6915 0    50   Input ~ 0
+CHIPLINK_TX_DAT16
+Wire Wire Line
+	6220 6915 6310 6915
+Text GLabel 6220 7015 0    50   Input ~ 0
+CHIPLINK_TX_DAT17
+Wire Wire Line
+	6220 7015 6310 7015
+Text GLabel 6220 7215 0    50   Input ~ 0
+CHIPLINK_TX_DAT24
+Wire Wire Line
+	6220 7215 6310 7215
+Text GLabel 6220 7315 0    50   Input ~ 0
+CHIPLINK_TX_DAT25
+Wire Wire Line
+	6220 7315 6310 7315
+Text GLabel 6145 5915 0    50   Input ~ 0
+CHIPLINK_RX_CLK
+Wire Wire Line
+	6145 5915 6310 5915
+Text GLabel 6190 7515 0    50   Input ~ 0
+CHIPLINK_TX_SEND
+Wire Wire Line
+	6190 7515 6310 7515
+Text GLabel 6130 7615 0    50   Input ~ 0
+CHIPLINK_TX_RST
+Wire Wire Line
+	6130 7615 6310 7615
+Text GLabel 6185 7815 0    50   Input ~ 0
+CHIPLINK_RX_DAT6
+Wire Wire Line
+	6185 7815 6310 7815
+Text GLabel 6185 7915 0    50   Input ~ 0
+CHIPLINK_RX_DAT7
+Wire Wire Line
+	6185 7915 6310 7915
+Text GLabel 6235 8115 0    50   Input ~ 0
+CHIPLINK_RX_DAT10
+Wire Wire Line
+	6235 8115 6310 8115
+Text GLabel 6235 8215 0    50   Input ~ 0
+CHIPLINK_RX_DAT11
+Wire Wire Line
+	6235 8215 6310 8215
+Text GLabel 6235 8415 0    50   Input ~ 0
+CHIPLINK_RX_DAT16
+Wire Wire Line
+	6235 8415 6310 8415
+Text GLabel 6235 8515 0    50   Input ~ 0
+CHIPLINK_RX_DAT17
+Wire Wire Line
+	6235 8515 6310 8515
+Text GLabel 6235 8715 0    50   Input ~ 0
+CHIPLINK_RX_DAT24
+Wire Wire Line
+	6235 8715 6310 8715
+Text GLabel 6235 8815 0    50   Input ~ 0
+CHIPLINK_RX_DAT25
+Wire Wire Line
+	6235 8815 6310 8815
+Text GLabel 6235 9015 0    50   Input ~ 0
+CHIPLINK_RX_DAT28
+Wire Wire Line
+	6235 9015 6310 9015
+Text GLabel 6235 9115 0    50   Input ~ 0
+CHIPLINK_RX_DAT29
+Wire Wire Line
+	6235 9115 6310 9115
+Text GLabel 6205 9315 0    50   Input ~ 0
+CHIPLINK_RX_SEND
+Wire Wire Line
+	6205 9315 6310 9315
+Text GLabel 6145 9415 0    50   Input ~ 0
+CHIPLINK_RX_RST
+Wire Wire Line
+	6145 9415 6310 9415
+Wire Wire Line
+	6310 9615 5445 9615
+Text Label 5445 9615 0    50   ~ 0
+VCCIO_HPC_VADJ
+Wire Wire Line
+	6310 9715 5145 9715
+$Comp
+L power:Earth #PWR?
+U 1 1 5D2820D8
+P 5145 9715
+F 0 "#PWR?" H 5145 9465 50  0001 C CNN
+F 1 "Earth" H 5145 9565 50  0001 C CNN
+F 2 "" H 5145 9715 50  0001 C CNN
+F 3 "~" H 5145 9715 50  0001 C CNN
+	1    5145 9715
+	1    0    0    -1  
+$EndComp
+Connection ~ 5145 9715
+NoConn ~ 6310 6015
+Wire Wire Line
+	6310 5815 5145 5815
+Wire Wire Line
+	5145 5815 5145 6115
+Wire Wire Line
+	6310 9515 5145 9515
+Connection ~ 5145 9515
+Wire Wire Line
+	5145 9515 5145 9715
+Wire Wire Line
+	6310 9215 5145 9215
+Connection ~ 5145 9215
+Wire Wire Line
+	5145 9215 5145 9515
+Wire Wire Line
+	6310 8915 5145 8915
+Connection ~ 5145 8915
+Wire Wire Line
+	5145 8915 5145 9215
+Wire Wire Line
+	6310 8615 5145 8615
+Connection ~ 5145 8615
+Wire Wire Line
+	5145 8615 5145 8915
+Wire Wire Line
+	6310 8315 5145 8315
+Connection ~ 5145 8315
+Wire Wire Line
+	5145 8315 5145 8615
+Wire Wire Line
+	6310 8015 5145 8015
+Connection ~ 5145 8015
+Wire Wire Line
+	5145 8015 5145 8315
+Wire Wire Line
+	6310 7715 5145 7715
+Connection ~ 5145 7715
+Wire Wire Line
+	5145 7715 5145 8015
+Wire Wire Line
+	6310 7415 5145 7415
+Connection ~ 5145 7415
+Wire Wire Line
+	5145 7415 5145 7715
+Wire Wire Line
+	6310 7115 5145 7115
+Connection ~ 5145 7115
+Wire Wire Line
+	5145 7115 5145 7415
+Wire Wire Line
+	6310 6815 5145 6815
+Connection ~ 5145 6815
+Wire Wire Line
+	5145 6815 5145 7115
+Wire Wire Line
+	6310 6515 5145 6515
+Connection ~ 5145 6515
+Wire Wire Line
+	5145 6515 5145 6815
+Wire Wire Line
+	6310 6215 5145 6215
+Connection ~ 5145 6215
+Wire Wire Line
+	5145 6215 5145 6515
+Wire Wire Line
+	6310 6115 5145 6115
+Connection ~ 5145 6115
+Wire Wire Line
+	5145 6115 5145 6215
+NoConn ~ 14195 6005
+NoConn ~ 14195 6105
+NoConn ~ 14195 6905
+NoConn ~ 14195 7005
+NoConn ~ 14195 7205
+NoConn ~ 14195 7305
+NoConn ~ 14195 7505
+NoConn ~ 14195 7605
+NoConn ~ 14195 7805
+NoConn ~ 14195 7905
+NoConn ~ 14195 8105
+NoConn ~ 14195 8205
+NoConn ~ 14195 8405
+NoConn ~ 14195 8505
+NoConn ~ 14195 8705
+NoConn ~ 14195 8805
+NoConn ~ 14195 9005
+NoConn ~ 14195 9105
+NoConn ~ 14195 9305
+NoConn ~ 14195 9405
+Wire Wire Line
+	14195 9605 13330 9605
+Text Label 13330 9605 0    50   ~ 0
+VCCIO_HPC_VIO_B
+$Comp
+L power:Earth #PWR?
+U 1 1 5D6E4815
+P 13050 9605
+F 0 "#PWR?" H 13050 9355 50  0001 C CNN
+F 1 "Earth" H 13050 9455 50  0001 C CNN
+F 2 "" H 13050 9605 50  0001 C CNN
+F 3 "~" H 13050 9605 50  0001 C CNN
+	1    13050 9605
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14195 5805 13050 5805
+Wire Wire Line
+	13050 5805 13050 5905
+Wire Wire Line
+	14195 5905 13050 5905
+Connection ~ 13050 5905
+Wire Wire Line
+	13050 5905 13050 6205
+Wire Wire Line
+	14195 6205 13050 6205
+Connection ~ 13050 6205
+Wire Wire Line
+	13050 6205 13050 6505
+Text GLabel 13965 6305 0    50   Input ~ 0
+FMC_HA02_P
+Wire Wire Line
+	13965 6305 14195 6305
+Text GLabel 13965 6405 0    50   Input ~ 0
+FMC_HA02_N
+Wire Wire Line
+	13965 6405 14195 6405
+Text GLabel 13965 6605 0    50   Input ~ 0
+FMC_HA06_P
+Wire Wire Line
+	13965 6605 14195 6605
+Text GLabel 13965 6705 0    50   Input ~ 0
+FMC_HA06_N
+Wire Wire Line
+	13965 6705 14195 6705
+Wire Wire Line
+	14195 6505 13050 6505
+Connection ~ 13050 6505
+Wire Wire Line
+	13050 6505 13050 6805
+Wire Wire Line
+	14195 6805 13050 6805
+Connection ~ 13050 6805
+Wire Wire Line
+	13050 6805 13050 7105
+Wire Wire Line
+	14195 7105 13050 7105
+Connection ~ 13050 7105
+Wire Wire Line
+	13050 7105 13050 7405
+Wire Wire Line
+	14195 7405 13050 7405
+Connection ~ 13050 7405
+Wire Wire Line
+	13050 7405 13050 7705
+Wire Wire Line
+	14195 7705 13050 7705
+Connection ~ 13050 7705
+Wire Wire Line
+	13050 7705 13050 8005
+Wire Wire Line
+	14195 8005 13050 8005
+Connection ~ 13050 8005
+Wire Wire Line
+	13050 8005 13050 8305
+Wire Wire Line
+	14195 8305 13050 8305
+Connection ~ 13050 8305
+Wire Wire Line
+	13050 8305 13050 8605
+Wire Wire Line
+	14195 8605 13050 8605
+Connection ~ 13050 8605
+Wire Wire Line
+	13050 8605 13050 8905
+Wire Wire Line
+	14195 8905 13050 8905
+Connection ~ 13050 8905
+Wire Wire Line
+	13050 8905 13050 9205
+Wire Wire Line
+	14195 9205 13050 9205
+Connection ~ 13050 9205
+Wire Wire Line
+	13050 9205 13050 9505
+Wire Wire Line
+	14195 9505 13050 9505
+Connection ~ 13050 9505
+Wire Wire Line
+	13050 9505 13050 9605
+Wire Wire Line
+	14195 5705 13925 5705
+$Comp
+L Device:R R?
+U 1 1 5D95880E
+P 13680 5705
+F 0 "R?" V 13640 5510 50  0000 C CNN
+F 1 "1K" V 13640 5865 50  0000 C CNN
+F 2 "" V 13610 5705 50  0001 C CNN
+F 3 "~" H 13680 5705 50  0001 C CNN
+	1    13680 5705
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13530 5705 13050 5705
+Wire Wire Line
+	13050 5705 13050 5805
+Connection ~ 13050 5805
+Wire Wire Line
+	13925 5705 13925 5645
+Connection ~ 13925 5705
+Wire Wire Line
+	13925 5705 13830 5705
+$Comp
+L Device:R R?
+U 1 1 5D9BE37D
+P 13925 5495
+F 0 "R?" H 13810 5355 50  0000 C CNN
+F 1 "10K" H 13835 5640 50  0000 C CNN
+F 2 "" V 13855 5495 50  0001 C CNN
+F 3 "~" H 13925 5495 50  0001 C CNN
+	1    13925 5495
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13925 5345 13925 5300
+$Comp
+L Device:R R?
+U 1 1 5DA479F0
+P 13775 5300
+F 0 "R?" V 13720 5105 50  0000 C CNN
+F 1 "0R" V 13720 5460 50  0000 C CNN
+F 2 "" V 13705 5300 50  0001 C CNN
+F 3 "~" H 13775 5300 50  0001 C CNN
+	1    13775 5300
+	0    1    1    0   
+$EndComp
+Connection ~ 13925 5300
+Wire Wire Line
+	13625 5300 12760 5300
+Text Label 12760 5300 0    50   ~ 0
+VCCIO_HPC_VADJ
+Text Label 14895 5300 2    50   ~ 0
+VCCIO_HPC_VIO_B
+Wire Wire Line
+	13925 5300 14895 5300
+Text GLabel 10960 6175 0    50   Input ~ 0
+FMC_HA03_P
+Wire Wire Line
+	10960 6175 11190 6175
+Text GLabel 10960 6275 0    50   Input ~ 0
+FMC_HA03_N
+Wire Wire Line
+	10960 6275 11190 6275
+Text GLabel 10960 6475 0    50   Input ~ 0
+FMC_HA07_P
+Wire Wire Line
+	10960 6475 11190 6475
+Text GLabel 10960 6575 0    50   Input ~ 0
+FMC_HA07_N
+Wire Wire Line
+	10960 6575 11190 6575
+NoConn ~ 11190 5775
+NoConn ~ 11190 5875
+NoConn ~ 11190 6775
+NoConn ~ 11190 6875
+NoConn ~ 11190 7075
+NoConn ~ 11190 7175
+NoConn ~ 11190 7375
+NoConn ~ 11190 7475
+NoConn ~ 11190 7675
+NoConn ~ 11190 7775
+NoConn ~ 11190 7975
+NoConn ~ 11190 8075
+NoConn ~ 11190 8275
+NoConn ~ 11190 8375
+NoConn ~ 11190 8575
+NoConn ~ 11190 8675
+NoConn ~ 11190 8875
+NoConn ~ 11190 8975
+NoConn ~ 11190 9175
+NoConn ~ 11190 9275
+Wire Wire Line
+	11190 9475 10325 9475
+Text Label 10325 9475 0    50   ~ 0
+VCCIO_HPC_VIO_B
+Wire Wire Line
+	11190 9575 10025 9575
+$Comp
+L power:Earth #PWR?
+U 1 1 5DE6F6B6
+P 10025 9575
+F 0 "#PWR?" H 10025 9325 50  0001 C CNN
+F 1 "Earth" H 10025 9425 50  0001 C CNN
+F 2 "" H 10025 9575 50  0001 C CNN
+F 3 "~" H 10025 9575 50  0001 C CNN
+	1    10025 9575
+	1    0    0    -1  
+$EndComp
+Connection ~ 10025 9575
+Wire Wire Line
+	10025 6375 11190 6375
+Wire Wire Line
+	11190 5675 10025 5675
+Connection ~ 10025 6375
+Wire Wire Line
+	11190 5975 10025 5975
+Wire Wire Line
+	10025 5675 10025 5975
+Connection ~ 10025 5975
+Wire Wire Line
+	10025 5975 10025 6075
+Wire Wire Line
+	11190 6075 10025 6075
+Connection ~ 10025 6075
+Wire Wire Line
+	10025 6075 10025 6375
+Wire Wire Line
+	11190 6675 10025 6675
+Wire Wire Line
+	10025 6375 10025 6675
+Connection ~ 10025 6675
+Wire Wire Line
+	10025 6675 10025 6975
+Wire Wire Line
+	11190 6975 10025 6975
+Connection ~ 10025 6975
+Wire Wire Line
+	10025 6975 10025 7275
+Wire Wire Line
+	11190 7275 10025 7275
+Connection ~ 10025 7275
+Wire Wire Line
+	10025 7275 10025 7575
+Wire Wire Line
+	11190 7575 10025 7575
+Connection ~ 10025 7575
+Wire Wire Line
+	10025 7575 10025 7875
+Wire Wire Line
+	11190 7875 10025 7875
+Connection ~ 10025 7875
+Wire Wire Line
+	10025 7875 10025 8175
+Wire Wire Line
+	11190 8175 10025 8175
+Connection ~ 10025 8175
+Wire Wire Line
+	10025 8175 10025 8475
+Wire Wire Line
+	11190 8475 10025 8475
+Connection ~ 10025 8475
+Wire Wire Line
+	10025 8475 10025 8775
+Wire Wire Line
+	11190 8775 10025 8775
+Connection ~ 10025 8775
+Wire Wire Line
+	10025 8775 10025 9075
+Wire Wire Line
+	11190 9075 10025 9075
+Connection ~ 10025 9075
+Wire Wire Line
+	10025 9075 10025 9375
+Wire Wire Line
+	11190 9375 10025 9375
+Connection ~ 10025 9375
+Wire Wire Line
+	10025 9375 10025 9575
+Text GLabel 8495 6335 0    50   Input ~ 0
+CHIPLINK_TX_DAT4
+Wire Wire Line
+	8495 6335 8630 6335
+Text GLabel 8495 6435 0    50   Input ~ 0
+CHIPLINK_TX_DAT5
+Wire Wire Line
+	8495 6435 8630 6435
+Text GLabel 8495 6635 0    50   Input ~ 0
+CHIPLINK_TX_DAT8
+Wire Wire Line
+	8495 6635 8630 6635
+Text GLabel 8495 6735 0    50   Input ~ 0
+CHIPLINK_TX_DAT9
+Wire Wire Line
+	8495 6735 8630 6735
+Text GLabel 8540 6935 0    50   Input ~ 0
+CHIPLINK_TX_DAT14
+Wire Wire Line
+	8540 6935 8630 6935
+Text GLabel 8540 7035 0    50   Input ~ 0
+CHIPLINK_TX_DAT15
+Wire Wire Line
+	8540 7035 8630 7035
+Text GLabel 8540 7235 0    50   Input ~ 0
+CHIPLINK_TX_DAT22
+Wire Wire Line
+	8540 7235 8630 7235
+Text GLabel 8540 7335 0    50   Input ~ 0
+CHIPLINK_TX_DAT23
+Wire Wire Line
+	8540 7335 8630 7335
+Text GLabel 8540 7535 0    50   Input ~ 0
+CHIPLINK_TX_DAT30
+Wire Wire Line
+	8540 7535 8630 7535
+Text GLabel 8540 7635 0    50   Input ~ 0
+CHIPLINK_TX_DAT31
+Wire Wire Line
+	8540 7635 8630 7635
+Text GLabel 8505 7835 0    50   Input ~ 0
+CHIPLINK_RX_DAT4
+Wire Wire Line
+	8505 7835 8630 7835
+Text GLabel 8505 7935 0    50   Input ~ 0
+CHIPLINK_RX_DAT5
+Wire Wire Line
+	8505 7935 8630 7935
+Text GLabel 8505 8135 0    50   Input ~ 0
+CHIPLINK_RX_DAT8
+Wire Wire Line
+	8505 8135 8630 8135
+Text GLabel 8505 8235 0    50   Input ~ 0
+CHIPLINK_RX_DAT9
+Wire Wire Line
+	8505 8235 8630 8235
+Text GLabel 8555 8435 0    50   Input ~ 0
+CHIPLINK_RX_DAT14
+Wire Wire Line
+	8555 8435 8630 8435
+Text GLabel 8555 8535 0    50   Input ~ 0
+CHIPLINK_RX_DAT15
+Wire Wire Line
+	8555 8535 8630 8535
+Text GLabel 8555 8735 0    50   Input ~ 0
+CHIPLINK_RX_DAT22
+Wire Wire Line
+	8555 8735 8630 8735
+Text GLabel 8555 8835 0    50   Input ~ 0
+CHIPLINK_RX_DAT23
+Wire Wire Line
+	8555 8835 8630 8835
+Text GLabel 8555 9035 0    50   Input ~ 0
+CHIPLINK_RX_DAT26
+Wire Wire Line
+	8555 9035 8630 9035
+Text GLabel 8555 9135 0    50   Input ~ 0
+CHIPLINK_RX_DAT27
+Wire Wire Line
+	8555 9135 8630 9135
+Text GLabel 8555 9335 0    50   Input ~ 0
+CHIPLINK_RX_DAT30
+Wire Wire Line
+	8555 9335 8630 9335
+Text GLabel 8555 9435 0    50   Input ~ 0
+CHIPLINK_RX_DAT31
+Wire Wire Line
+	8555 9435 8630 9435
+Wire Wire Line
+	8630 9635 7765 9635
+Text Label 7765 9635 0    50   ~ 0
+VCCIO_HPC_VADJ
+Text GLabel 8455 6035 0    50   Input ~ 0
+CHIPLINK_TX_CLK
+Wire Wire Line
+	8455 6035 8630 6035
+Text GLabel 8125 6135 0    50   Input ~ 0
+RESET_N
+Wire Wire Line
+	8125 6135 8630 6135
+Text GLabel 8320 5835 0    50   Input ~ 0
+PRSNT_M2C_L
+Wire Wire Line
+	8320 5835 8395 5835
+$Comp
+L Device:R R206
+U 1 1 5E4062E8
+P 8395 5650
+F 0 "R206" H 8280 5510 50  0000 C CNN
+F 1 "10K" H 8305 5795 50  0000 C CNN
+F 2 "" V 8325 5650 50  0001 C CNN
+F 3 "~" H 8395 5650 50  0001 C CNN
+	1    8395 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8395 5800 8395 5835
+Connection ~ 8395 5835
+Wire Wire Line
+	8395 5500 7760 5500
+Wire Wire Line
+	8395 5835 8630 5835
+Text Label 7760 5500 0    50   ~ 0
+3P3V
+$Comp
+L Device:R R205
+U 1 1 5E498D6C
+P 7525 5650
+F 0 "R205" H 7640 5510 50  0000 C CNN
+F 1 "1K DNP" H 7490 5800 50  0000 C CNN
+F 2 "" V 7455 5650 50  0001 C CNN
+F 3 "~" H 7525 5650 50  0001 C CNN
+	1    7525 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8630 5735 8630 5385
+Wire Wire Line
+	8630 5385 7525 5385
+Wire Wire Line
+	7525 5385 7525 5500
+$Comp
+L Device:R R207
+U 1 1 5E4FB385
+P 8780 5385
+F 0 "R207" V 8730 5190 50  0000 C CNN
+F 1 "1K DNP" V 8730 5635 50  0000 C CNN
+F 2 "" V 8710 5385 50  0001 C CNN
+F 3 "~" H 8780 5385 50  0001 C CNN
+	1    8780 5385
+	0    1    1    0   
+$EndComp
+Connection ~ 8630 5385
+Text Label 9875 5385 2    50   ~ 0
+VCCIO_HPC_VADJ
+Wire Wire Line
+	8930 5385 9875 5385
+Wire Wire Line
+	7525 5800 7525 5935
+Wire Wire Line
+	7525 9535 8630 9535
+$Comp
+L power:Earth #PWR?
+U 1 1 5E6EBFD5
+P 7525 9635
+F 0 "#PWR?" H 7525 9385 50  0001 C CNN
+F 1 "Earth" H 7525 9485 50  0001 C CNN
+F 2 "" H 7525 9635 50  0001 C CNN
+F 3 "~" H 7525 9635 50  0001 C CNN
+	1    7525 9635
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7525 9535 7525 9635
+Connection ~ 7525 9535
+Wire Wire Line
+	8630 9235 7525 9235
+Connection ~ 7525 9235
+Wire Wire Line
+	7525 9235 7525 9535
+Wire Wire Line
+	8630 8935 7525 8935
+Connection ~ 7525 8935
+Wire Wire Line
+	7525 8935 7525 9235
+Wire Wire Line
+	8630 8635 7525 8635
+Connection ~ 7525 8635
+Wire Wire Line
+	7525 8635 7525 8935
+Wire Wire Line
+	8630 8335 7525 8335
+Connection ~ 7525 8335
+Wire Wire Line
+	7525 8335 7525 8635
+Wire Wire Line
+	8630 8035 7525 8035
+Connection ~ 7525 8035
+Wire Wire Line
+	7525 8035 7525 8335
+Wire Wire Line
+	8630 7735 7525 7735
+Connection ~ 7525 7735
+Wire Wire Line
+	7525 7735 7525 8035
+Wire Wire Line
+	8630 7435 7525 7435
+Connection ~ 7525 7435
+Wire Wire Line
+	7525 7435 7525 7735
+Wire Wire Line
+	8630 7135 7525 7135
+Connection ~ 7525 7135
+Wire Wire Line
+	7525 7135 7525 7435
+Wire Wire Line
+	8630 6835 7525 6835
+Connection ~ 7525 6835
+Wire Wire Line
+	7525 6835 7525 7135
+Wire Wire Line
+	8630 6535 7525 6535
+Connection ~ 7525 6535
+Wire Wire Line
+	7525 6535 7525 6835
+Wire Wire Line
+	8630 6235 7525 6235
+Connection ~ 7525 6235
+Wire Wire Line
+	7525 6235 7525 6535
+Wire Wire Line
+	8630 5935 7525 5935
+Connection ~ 7525 5935
+Wire Wire Line
+	7525 5935 7525 6235
 $EndSCHEMATC
