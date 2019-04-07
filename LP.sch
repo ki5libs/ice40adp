@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:ICE40ADP-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -60,4 +59,310 @@ F 3 "~" H 7600 4985 50  0001 C CNN
 $EndComp
 Text Notes 8075 7030 0    300  ~ 60
 LP Sheet
+Wire Wire Line
+	2295 2565 2035 2565
+Text GLabel 2035 2565 0    50   Input ~ 0
+CHIPLINK_TX_CLK
+Wire Wire Line
+	4020 5035 4280 5035
+Text GLabel 4280 5035 2    50   Input ~ 0
+CHIPLINK_RX_CLK
+Wire Wire Line
+	2795 1465 3055 1465
+Wire Wire Line
+	2795 1565 3055 1565
+Wire Wire Line
+	2795 1765 3055 1765
+Wire Wire Line
+	2795 1865 3055 1865
+Wire Wire Line
+	2795 1965 3055 1965
+Wire Wire Line
+	2795 2165 3055 2165
+Wire Wire Line
+	2795 2265 3055 2265
+Wire Wire Line
+	2795 2365 3055 2365
+Wire Wire Line
+	2795 2565 3055 2565
+Wire Wire Line
+	2795 2665 3055 2665
+Wire Wire Line
+	2795 2765 3055 2765
+Wire Wire Line
+	2795 2965 3055 2965
+Wire Wire Line
+	2795 3065 3055 3065
+Wire Wire Line
+	2795 3165 3055 3165
+Wire Wire Line
+	2035 2965 2295 2965
+Wire Wire Line
+	2035 3065 2295 3065
+Wire Wire Line
+	2035 3165 2295 3165
+Wire Wire Line
+	2035 2665 2295 2665
+Wire Wire Line
+	2035 2765 2295 2765
+Wire Wire Line
+	2035 2165 2295 2165
+Wire Wire Line
+	2035 2265 2295 2265
+Wire Wire Line
+	2035 2365 2295 2365
+Wire Wire Line
+	2035 1765 2295 1765
+Wire Wire Line
+	2035 1865 2295 1865
+Wire Wire Line
+	2035 1965 2295 1965
+Wire Wire Line
+	2035 1565 2295 1565
+Wire Wire Line
+	3260 4035 3520 4035
+Wire Wire Line
+	3260 4135 3520 4135
+Wire Wire Line
+	3260 4235 3520 4235
+Wire Wire Line
+	3260 4435 3520 4435
+Wire Wire Line
+	3260 4535 3520 4535
+Wire Wire Line
+	3260 4635 3520 4635
+Wire Wire Line
+	3260 4835 3520 4835
+Wire Wire Line
+	3260 4935 3520 4935
+Wire Wire Line
+	3260 5035 3520 5035
+Wire Wire Line
+	3260 5235 3520 5235
+Wire Wire Line
+	3260 5335 3520 5335
+Wire Wire Line
+	3260 5435 3520 5435
+Wire Wire Line
+	3260 5635 3520 5635
+Wire Wire Line
+	3260 5735 3520 5735
+Wire Wire Line
+	3260 5835 3520 5835
+Wire Wire Line
+	4020 4135 4280 4135
+Wire Wire Line
+	4020 4235 4280 4235
+Wire Wire Line
+	4020 4435 4280 4435
+Wire Wire Line
+	4020 4535 4280 4535
+Wire Wire Line
+	4020 4635 4280 4635
+Wire Wire Line
+	4020 4835 4280 4835
+Wire Wire Line
+	4020 4935 4280 4935
+Wire Wire Line
+	4020 5235 4280 5235
+Wire Wire Line
+	4020 5335 4280 5335
+Wire Wire Line
+	4020 5435 4280 5435
+Wire Wire Line
+	4020 5635 4280 5635
+Wire Wire Line
+	4020 5735 4280 5735
+Wire Wire Line
+	4020 5835 4280 5835
+Wire Wire Line
+	7900 4185 8160 4185
+Wire Wire Line
+	7900 4285 8160 4285
+Wire Wire Line
+	7140 4285 7400 4285
+Wire Wire Line
+	7900 4485 8160 4485
+Wire Wire Line
+	7900 4585 8160 4585
+Wire Wire Line
+	7900 4685 8160 4685
+Wire Wire Line
+	7900 4885 8160 4885
+Wire Wire Line
+	7900 4985 8160 4985
+Wire Wire Line
+	7900 5085 8160 5085
+Wire Wire Line
+	7900 5285 8160 5285
+Wire Wire Line
+	7900 5385 8160 5385
+Wire Wire Line
+	7900 5485 8160 5485
+Wire Wire Line
+	7900 5685 8160 5685
+Wire Wire Line
+	7900 5785 8160 5785
+Wire Wire Line
+	7900 5885 8160 5885
+Wire Wire Line
+	7140 4485 7400 4485
+Wire Wire Line
+	7140 4585 7400 4585
+Wire Wire Line
+	7140 4685 7400 4685
+Wire Wire Line
+	7140 4885 7400 4885
+Wire Wire Line
+	7140 4985 7400 4985
+Wire Wire Line
+	7140 5085 7400 5085
+Wire Wire Line
+	7140 5285 7400 5285
+Wire Wire Line
+	7140 5385 7400 5385
+Wire Wire Line
+	7140 5485 7400 5485
+Wire Wire Line
+	7140 5685 7400 5685
+Wire Wire Line
+	7140 5785 7400 5785
+Wire Wire Line
+	7140 5885 7400 5885
+Text GLabel 2035 1565 0    50   Input ~ 0
+CHIPLINK_TX_DAT2
+Text GLabel 2035 1765 0    50   Input ~ 0
+CHIPLINK_TX_DAT3
+Text GLabel 2035 1865 0    50   Input ~ 0
+CHIPLINK_TX_DAT4
+Text GLabel 3055 1465 2    50   Input ~ 0
+CHIPLINK_TX_DAT0
+Text GLabel 3055 1565 2    50   Input ~ 0
+CHIPLINK_TX_DAT1
+Text GLabel 3055 1765 2    50   Input ~ 0
+CHIPLINK_TX_DAT5
+Text GLabel 3055 1865 2    50   Input ~ 0
+CHIPLINK_TX_DAT6
+Text GLabel 2035 2165 0    50   Input ~ 0
+CHIPLINK_TX_DAT7
+Text GLabel 2035 2365 0    50   Input ~ 0
+CHIPLINK_TX_DAT8
+Text GLabel 2035 1965 0    50   Input ~ 0
+CHIPLINK_TX_DAT9
+Text GLabel 3055 1965 2    50   Input ~ 0
+CHIPLINK_TX_DAT10
+Text GLabel 3055 2165 2    50   Input ~ 0
+CHIPLINK_TX_DAT11
+Text GLabel 3055 2365 2    50   Input ~ 0
+CHIPLINK_TX_DAT12
+Text GLabel 2035 2665 0    50   Input ~ 0
+CHIPLINK_TX_DAT13
+Text GLabel 3055 2565 2    50   Input ~ 0
+CHIPLINK_TX_DAT14
+Text GLabel 2035 2765 0    50   Input ~ 0
+CHIPLINK_TX_DAT15
+Text GLabel 3055 2665 2    50   Input ~ 0
+CHIPLINK_TX_DAT16
+Text GLabel 2035 2265 0    50   Input ~ 0
+CHIPLINK_TX_DAT17
+Text GLabel 2035 2965 0    50   Input ~ 0
+CHIPLINK_TX_DAT18
+Text GLabel 2035 3065 0    50   Input ~ 0
+CHIPLINK_TX_DAT19
+Text GLabel 3055 2265 2    50   Input ~ 0
+CHIPLINK_TX_DAT20
+Text GLabel 3055 2765 2    50   Input ~ 0
+CHIPLINK_TX_DAT22
+Text GLabel 3055 2965 2    50   Input ~ 0
+CHIPLINK_TX_DAT21
+Text GLabel 3055 3165 2    50   Input ~ 0
+CHIPLINK_TX_DAT24
+Text GLabel 2035 3165 0    50   Input ~ 0
+CHIPLINK_TX_DAT23
+Text GLabel 3055 3065 2    50   Input ~ 0
+CHIPLINK_TX_DAT25
+Text GLabel 8160 5885 2    50   Input ~ 0
+CHIPLINK_TX_DAT26
+Text GLabel 7140 5785 0    50   Input ~ 0
+CHIPLINK_TX_DAT28
+Text GLabel 7140 5885 0    50   Input ~ 0
+CHIPLINK_TX_DAT27
+Text GLabel 8160 5785 2    50   Input ~ 0
+CHIPLINK_TX_DAT29
+Text GLabel 8160 5685 2    50   Input ~ 0
+CHIPLINK_TX_DAT30
+Text GLabel 7140 5685 0    50   Input ~ 0
+CHIPLINK_TX_DAT31
+Text GLabel 3260 5735 0    50   Input ~ 0
+CHIPLINK_RX_DAT1
+Text GLabel 3260 5835 0    50   Input ~ 0
+CHIPLINK_RX_DAT0
+Text GLabel 4280 5835 2    50   Input ~ 0
+CHIPLINK_RX_DAT2
+Text GLabel 4280 5435 2    50   Input ~ 0
+CHIPLINK_RX_DAT4
+Text GLabel 3260 5635 0    50   Input ~ 0
+CHIPLINK_RX_DAT3
+Text GLabel 4280 5735 2    50   Input ~ 0
+CHIPLINK_RX_DAT5
+Text GLabel 4280 5635 2    50   Input ~ 0
+CHIPLINK_RX_DAT6
+Text GLabel 3260 5435 0    50   Input ~ 0
+CHIPLINK_RX_DAT7
+Text GLabel 4280 5335 2    50   Input ~ 0
+CHIPLINK_RX_DAT8
+Text GLabel 3260 5335 0    50   Input ~ 0
+CHIPLINK_RX_DAT10
+Text GLabel 3260 4935 0    50   Input ~ 0
+CHIPLINK_RX_DAT9
+Text GLabel 3260 5235 0    50   Input ~ 0
+CHIPLINK_RX_DAT11
+Text GLabel 4280 5235 2    50   Input ~ 0
+CHIPLINK_RX_DAT12
+Text GLabel 3260 5035 0    50   Input ~ 0
+CHIPLINK_RX_DAT13
+Text GLabel 4280 4935 2    50   Input ~ 0
+CHIPLINK_RX_DAT14
+Text GLabel 4280 4835 2    50   Input ~ 0
+CHIPLINK_RX_DAT15
+Text GLabel 4280 4635 2    50   Input ~ 0
+CHIPLINK_RX_DAT16
+Text GLabel 3260 4835 0    50   Input ~ 0
+CHIPLINK_RX_DAT17
+Text GLabel 3260 4535 0    50   Input ~ 0
+CHIPLINK_RX_DAT18
+Text GLabel 3260 4635 0    50   Input ~ 0
+CHIPLINK_RX_DAT19
+Text GLabel 3260 4135 0    50   Input ~ 0
+CHIPLINK_RX_DAT20
+Text GLabel 4280 4235 2    50   Input ~ 0
+CHIPLINK_RX_DAT21
+Text GLabel 4280 4535 2    50   Input ~ 0
+CHIPLINK_RX_DAT22
+Text GLabel 3260 4235 0    50   Input ~ 0
+CHIPLINK_RX_DAT23
+Text GLabel 3260 4435 0    50   Input ~ 0
+CHIPLINK_RX_DAT24
+Text GLabel 4280 4135 2    50   Input ~ 0
+CHIPLINK_RX_DAT25
+Text GLabel 3260 4035 0    50   Input ~ 0
+CHIPLINK_RX_DAT26
+Text GLabel 4280 4435 2    50   Input ~ 0
+CHIPLINK_RX_DAT27
+Text GLabel 7140 5485 0    50   Input ~ 0
+CHIPLINK_RX_DAT28
+Text GLabel 7140 5385 0    50   Input ~ 0
+CHIPLINK_RX_DAT29
+Text GLabel 8160 5485 2    50   Input ~ 0
+CHIPLINK_RX_DAT30
+Text GLabel 7140 5285 0    50   Input ~ 0
+CHIPLINK_RX_DAT31
+Text GLabel 8160 5385 2    50   Input ~ 0
+CHIPLINK_TX_SEND
+Text GLabel 7140 5085 0    50   Input ~ 0
+CHIPLINK_RX_SEND
+Text GLabel 8160 5285 2    50   Input ~ 0
+CHIPLINK_RX_RST
+Text GLabel 8160 5085 2    50   Input ~ 0
+CHIPLINK_TX_RST
 $EndSCHEMATC
